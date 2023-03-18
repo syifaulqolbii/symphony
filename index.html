@@ -4,38 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
-    <link rel="stylesheet" href="style.css" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <!-- google font -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@500;700&display=swap");
+    </style>
     <title>Symphony | Elevate Your Product With Us</title>
   </head>
-  <body>
-    <!-- Header section start -->
-    <section class="header">
-      <header class="container">
-        <div class="navbar">
-          <div class="logo">
-            <a href="index.html">symphony</a>
-          </div>
-          <nav>
-            <ul id="MenuItems">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Portfolio</a></li>
-            </ul>
-          </nav>
-          <button>Contact Us</button>
+  <body class="bg-primary">
+    <!-- Navbar Section -->
+    <nav
+      class="flex h-[129px] w-full items-center justify-between px-[120px] py-[40px]"
+    >
+      <a href="/" class="font-logo text-5xl uppercase text-putih">symphony</a>
+      <div
+        class="flex items-center gap-10 font-body font-medium uppercase text-putih"
+      >
+        <a href="/" class="hover:text-secondary">Home</a>
+        <a href="#about" class="hover:text-secondary">About Us</a>
+        <a href="#services" class="hover:text-secondary">Services</a>
+        <a href="#portfolio" class="hover:text-secondary">Portfolio Us</a>
+        <a
+          href="#contact"
+          class="group flex h-[56px] w-[148px] items-center justify-center rounded-[50px] bg-secondary hover:text-putih"
+        >
+          <span class="text-primary group-hover:text-white">Contact Us</span>
+        </a>
+      </div>
+    </nav>
+    <!-- Navbar Section -->
+    <!-- Hero Section -->
+    <header
+      class="container h-[700px] w-[1320px] rounded-[16px] bg-gradient-to-r from-primary/5 to-putih p-0.5"
+    >
+      <div class="h-full w-full rounded-[16px] bg-primary">
+        <div class="float-right mr-[63px]">
+          <h1
+            class="mb-[56px] mt-[144px] w-[861px] text-right font-heading text-[128px] font-normal leading-[143px] text-putih"
+          >
+            elevate your product with us
+          </h1>
+          <a
+            href="#contact"
+            class="group float-right mb-[144px] flex h-[56px] w-[148px] items-center justify-center rounded-[50px] border-4 border-putih bg-transparent hover:text-secondary"
+          >
+            <span class="text-putih group-hover:text-white">Contact Us</span>
+          </a>
         </div>
-      </header>
-    </section>
-    <!-- header section end -->
+      </div>
+    </header>
+    <!-- Hero Section -->
   </body>
 </html>
