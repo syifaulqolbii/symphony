@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,10 +11,10 @@
     </style>
     <title>Symphony | Elevate Your Product With Us</title>
   </head>
-  <body class="bg-primary">
-    <!-- Navbar Section -->
+  <body class="mx-auto max-w-[1440px] bg-primary">
+    <!-- Navbar Section Start-->
     <nav
-      class="flex h-[129px] w-full items-center justify-between px-[120px] py-[40px]"
+      class="flex h-[129px] items-center justify-between px-[120px] py-[40px]"
     >
       <a href="/" class="font-logo text-5xl uppercase text-putih">symphony</a>
       <div
@@ -32,27 +32,54 @@
         </a>
       </div>
     </nav>
-    <!-- Navbar Section -->
-    <!-- Hero Section -->
+    <!-- Navbar Section End -->
+    <!-- Hero Section Start -->
     <header
       class="container h-[700px] w-[1320px] rounded-[16px] bg-gradient-to-r from-primary/5 to-putih p-0.5"
     >
-      <div class="h-full w-full rounded-[16px] bg-primary">
-        <div class="float-right mr-[63px]">
+      <div class="relative h-full w-full rounded-[16px] bg-primary">
+        <img
+          src="/src/img/hero.png"
+          alt="hero"
+          class="absolute -top-16 left-[200px] z-10 mx-auto h-[840px] w-[840px]"
+        />
+        <div class="relative z-20 float-right mr-[63px]">
           <h1
-            class="mb-[56px] mt-[144px] w-[861px] text-right font-heading text-[128px] font-normal leading-[143px] text-putih"
+            class="z-30 mb-[56px] mt-[144px] w-[861px] text-right font-heading text-[128px] font-normal leading-[143px] text-putih"
           >
             elevate your product with us
           </h1>
           <a
-            href="#contact"
-            class="group float-right mb-[144px] flex h-[56px] w-[148px] items-center justify-center rounded-[50px] border-4 border-putih bg-transparent hover:text-secondary"
+            href="#services"
+            class="group z-30 float-right mb-[144px] flex h-[72px] w-[295px] items-center justify-center gap-[29px] rounded-[50px] border-4 border-putih bg-transparent hover:text-secondary"
           >
-            <span class="text-putih group-hover:text-white">Contact Us</span>
+            <span
+              class="font-body text-[24px] font-bold uppercase text-putih group-hover:text-white"
+              >Learn More</span
+            >
+            <div
+              class="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-putih"
+            >
+              <svg
+                width="18"
+                height="20"
+                viewBox="0 0 18 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.00001 18.3333L9.00001 1.66663M9.00001 18.3333L2.33334 11.6666M9.00001 18.3333L15.6667 11.6666"
+                  stroke="#121212"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
           </a>
         </div>
       </div>
     </header>
-    <!-- Hero Section -->
+    <!-- Hero Section End -->
   </body>
 </html>
