@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.porto {
+  width: 1200px;
+}
+
+.porto-container {
+  display: flex;
+}
+
+.porto-heading {
+  @apply text-putih;
+}
