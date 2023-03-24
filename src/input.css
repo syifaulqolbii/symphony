@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .porto {
-  /* position: relative; */
   margin-top: 1500px;
   width: 1200px;
 }
@@ -74,7 +73,6 @@
 
 .footer {
   margin-top: 150px;
-  /* width: 1200px; */
   height: 620px;
 }
 
@@ -179,7 +177,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  /* gap: 24px; */
   padding-top: 76px;
 }
 

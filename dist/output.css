@@ -668,6 +668,10 @@ video {
   margin-top: 144px;
 }
 
+.mt-\[1500px\] {
+  margin-top: 1500px;
+}
+
 .mt-\[500px\] {
   margin-top: 500px;
 }
@@ -1064,7 +1068,6 @@ video {
 }
 
 .porto {
-  /* position: relative; */
   margin-top: 1500px;
   width: 1200px;
 }
@@ -1136,7 +1139,6 @@ video {
 
 .footer {
   margin-top: 150px;
-  /* width: 1200px; */
   height: 620px;
 }
 
@@ -1244,7 +1246,6 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  /* gap: 24px; */
   padding-top: 76px;
 }
 
