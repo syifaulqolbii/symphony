@@ -668,16 +668,16 @@ video {
   margin-top: 144px;
 }
 
+.mt-\[1500px\] {
+  margin-top: 1500px;
+}
+
 .mt-\[500px\] {
   margin-top: 500px;
 }
 
 .mt-\[970px\] {
   margin-top: 970px;
-}
-
-.mt-\[1500px\] {
-  margin-top: 1500px;
 }
 
 .flex {
